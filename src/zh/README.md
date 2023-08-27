@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: home
-title: 博客主页
+title: 博客主页 
 heroImage: /logo.svg
 heroText: Sunhb的博客
 bgImage: /wallpicture4.jpg

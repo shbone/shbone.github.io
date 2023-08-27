@@ -14,7 +14,7 @@ export default hopeTheme({
   },
 
   iconAssets: "fontawesome-with-brands",
-
+  // 网站logo设置
   logo: "/assets/icon/weixin_pic.jpeg",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
@@ -39,7 +39,7 @@ export default hopeTheme({
   },
 
   locales: {
-    "/": {
+    "/en": {
       // navbar
       navbar: enNavbar,
 
@@ -63,7 +63,7 @@ export default hopeTheme({
     /**
      * Chinese locale config
      */
-    "/zh/": {
+    "/": {
       // navbar
       navbar: zhNavbar,
 

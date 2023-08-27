@@ -1,9 +1,9 @@
 ---
 home: true
 layout: BlogHome
-icon: 
+icon: bars
 title: 目录
-heroImage: /logo.svg
+heroImage: 
 heroText: Sunhb的博客
 bgImage: /wallpicture4.jpg
 heroFullScreen: false
