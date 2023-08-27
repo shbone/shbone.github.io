@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: home
-title: 博客主页 
+title: 主页
 heroImage: /logo.svg
 heroText: Sunhb的博客
 bgImage: /wallpicture4.jpg
@@ -10,37 +10,28 @@ heroFullScreen: false
 tagline: Just Do it
 projects:
   - icon: project
-    name: 项目详解
-    desc: 项目
-    link: https://你的项目链接
+    name: 框架学习
+    desc: 主流开源框架学习
+    link: ./category/框架学习/
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: 项目分享
+    desc: 项目重点摘记
+    link: ./category/项目分享/
 
   - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
+    name: 杂记
+    desc: 日常个人摘记
     link: https://你的书籍链接
 
-  - icon: article
-    name: 文章名称
+  - icon: list  
+    name: 自定义
     desc: 文章详细描述
     link: https://你的文章链接
 
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
-
-  - icon: /logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
-
-footer: 自定义你的页脚文字
+footer:  The More You Learn, The Better You Realize Your Ignorance
 ---
+
 
 这是一个博客主页的案例。
 
