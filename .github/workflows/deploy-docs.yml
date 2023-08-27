@@ -9,8 +9,8 @@ on:
   # 手动触发部署
   # workflow_dispatch:
 
-# permissions:
-#   contents: write
+permissions:
+  contents: write
 
 jobs:
   deploy-gh-pages:
@@ -33,7 +33,7 @@ jobs:
       - name: 设置 Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 16
           cache: pnpm
 
 
