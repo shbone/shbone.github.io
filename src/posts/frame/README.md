@@ -1,5 +1,5 @@
 ---
-title: 目录
+title: 框架学习
 index: false
 icon: book
 article: false
@@ -9,5 +9,4 @@ article: false
 
 本页面包含一些论文分享的分类：
 
-- [框架学习](./frame/)
-- [项目分享](./project/)
+文章
