@@ -1,6 +1,7 @@
 ---
 icon: circle-info
-cover: /assets/images/cover3.jpg
+title: 项目介绍页
+# cover: /assets/images/cover3.jpg
 ---
 
 # 介绍页
