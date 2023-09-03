@@ -11,3 +11,4 @@ article: false
 
 - [框架学习](/posts/frame/)
 - [项目分享](/posts/project/)
+- [JAVA学习](/posts/java/)

@@ -1,7 +1,7 @@
 ---
-title: 框架学习
+title: JAVA学习
 index: false
-icon: extend
+icon: java
 article: false
 ---
 

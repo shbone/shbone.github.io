@@ -9,7 +9,7 @@ bgImage: /wallpicture4.jpg
 heroFullScreen: false
 tagline: Just Do it
 projects:
-  - icon: project
+  - icon: flex
     name: 框架学习
     desc: 主流开源框架学习
     link: /category/框架学习/
@@ -19,11 +19,11 @@ projects:
     desc: 项目重点摘记
     link: /category/项目分享/
 
-  - icon: book
-    name: 杂记
-    desc: 日常个人摘记
-    link: https://你的书籍链接
-
+  - icon: java
+    name: JAVA学习
+    desc: JAVA基础技能学习
+    link: /category/JAVA学习/
+    
   - icon: list  
     name: 自定义
     desc: 文章详细描述

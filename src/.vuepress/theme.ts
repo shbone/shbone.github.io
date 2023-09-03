@@ -13,7 +13,7 @@ export default hopeTheme({
     url: "https://github.com/shbone",
   },
 
-  iconAssets: "fontawesome",
+  iconAssets: "iconfont",
   // 网站logo设置
   logo: "/assets/icon/weixin_pic.jpeg",
 
@@ -25,13 +25,8 @@ export default hopeTheme({
     medias: {
       // Baidu: "https://example.com",
       BiliBili: "https://space.bilibili.com/436323435",
-      Email: "mailto:info@example.com",
-      Facebook: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      QQ: "https://example.com",
+      Email: "598924626@qq.com",
+      GitHub: "https://example.com"
     },
   },
 

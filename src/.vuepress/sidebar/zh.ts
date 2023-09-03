@@ -4,18 +4,14 @@ export const zhSidebar = sidebar({
   "/": [
     {
       text: "分类",
-      icon: "lightbulb",
+      icon: "flow",
       prefix: "posts/",
       link: "posts/",
       children: "structure"
-      // children: [
-      //   "frame/",
-      //   "project/"
-      // ]
     },
     
     // "intro",
     // "slides",
   ],
-  "zh/posts": "structure"
+  // "/zh/posts": "structure"
 });
