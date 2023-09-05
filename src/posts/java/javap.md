@@ -33,6 +33,16 @@ public class ConstPool {
 ```
 2. `javac ConstPool.java` 执行生成`ConstPool.class`二进制文件
 3. `javap -c ConstPool.class` 反编译展示`java`字节码文件
+
+::: tip
+
+二进制`.class`文件的组成
+- 类基本信息
+- 常量池
+- 类方法定义
+
+::: 
+
 ```java
 Classfile /home/root1/sunhb/selflearn/SunSpring/src/main/java/com/sunhb/sunspring/JVM/ConstPool.class
   Last modified 2023-9-3; size 450 bytes

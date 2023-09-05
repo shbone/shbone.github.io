@@ -25,8 +25,8 @@ export default hopeTheme({
     medias: {
       // Baidu: "https://example.com",
       BiliBili: "https://space.bilibili.com/436323435",
-      Email: "598924626@qq.com",
-      GitHub: "https://example.com"
+      // Email: "598924626@qq.com",
+      GitHub: "https://github.com/shbone"
     },
   },
 
