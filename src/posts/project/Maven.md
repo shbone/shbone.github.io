@@ -6,9 +6,21 @@ category:
   - 项目分享
 tag:
   - maven
+  - springboot
 ---
 
-# Maven 自动化构建工具
+# Maven 自动化构建工具分享
+
+
+
+本篇文章分享**Maven**的作用和自动化构建项目的常见方法，如`clean`,`install`,`package`等命令
+
+<!-- more -->
+
+
+> [原文：面试官问我maven package和install的区别](https://segmentfault.com/a/1190000021609439) 
+>
+> 如有侵权，立即删除
 
 ## 1. Maven是什么
 **Maven是Apache软件基金会唯一维护的一款自动化构建工具**，专注于服务Java平台的项目构建和依赖管理。
@@ -26,9 +38,9 @@ Maven是基于项目对象模型（POM），可以通过一小段描述信息来
 ## 3. Maven 构建项目的主要环节
 
 - 清理（clean）：删除以前的编译结果（删除`target`），为重新编译做好准备
-- 编译（compile）：将Java 源程序编译为字节码文件
+- 编译（compile）：将Java 源程序编译为字节码文件，生成`target`目录。
 - 测试（test）：针对项目中的关键点进行测试，确保项目在迭代开发过程中关键点的正确性
-- 打包（package）：将一个包含诸多文件的工程封装为一个压缩文件用于安装或部署。Java 工程对应 jar 包，Web工程对应 war 包。
+- 打包（package）：将一个包含诸多文件的工程封装为一个压缩文件用于安装或部署。Java 工程对应 jar 包，Web工程对应 war 包。`package`包含了`compile`命令的过程。
 - 安装（install）：在 Maven 环境下特指将打包的结果——jar 包或 war 包安装到本地仓库中。
 - 部署（deploy）：将打包的结果部署到远程仓库或将 war 包部署到服务器上运行。
 
