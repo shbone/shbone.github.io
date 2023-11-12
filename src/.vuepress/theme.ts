@@ -9,13 +9,13 @@ export default hopeTheme({
   hostname: "https://shbone.github.io",
 
   author: {
-    name: "SunHB",
+    name: "Sunhb",
     url: "https://github.com/shbone",
   },
 
   iconAssets: "iconfont",
   // 网站logo设置
-  logo: "/assets/icon/weixin_pic.jpeg",
+  logo: "/assets/icon/headicon.jpg",
 
   repo: "shbone/shbone.github.io",
 
@@ -23,34 +23,12 @@ export default hopeTheme({
 
   blog: {
     medias: {
-      // Baidu: "https://example.com",
       BiliBili: "https://space.bilibili.com/436323435",
-      // Email: "598924626@qq.com",
       GitHub: "https://github.com/shbone"
     },
   },
 
   locales: {
-    "/en": {
-      // navbar
-      navbar: enNavbar,
-
-      // sidebar
-      sidebar: enSidebar,
-
-      footer: "Default footer",
-
-      displayFooter: true,
-
-      blog: {
-        description: "A FrontEnd programmer",
-        intro: "/intro.html",
-      },
-
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
 
     /**
      * Chinese locale config
@@ -114,7 +92,7 @@ export default hopeTheme({
       playground: {
         presets: ["ts", "vue"],
       },
-      presentation: ["highlight", "math", "search", "notes", "zoom"],
+      // revealJs: ["highlight", "math", "search", "notes", "zoom"],
       stylize: [
         {
           matcher: "Recommended",
