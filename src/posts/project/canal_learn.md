@@ -16,8 +16,12 @@ Canal,主要用途是基于 MySQL 数据库增量日志解析，提供增量数�
 
 <!-- more -->
 
+::: tip
+
 [代码仓库](https://github.com/alibaba/canal)
-[视屏讲解]()
+[视屏讲解](https://www.bilibili.com/video/BV1Uc411P7XN)
+::: 
+
 
 ## 1. Canal功能
 
@@ -174,6 +178,8 @@ public static void main(String[] args) throws InvalidProtocolBufferException {
 
 ```
 
+
+测试：修改更新数据
 
 ``` shell
 UPDATE USER set name = "ssskkk" where name = "zhangsan";
