@@ -69,7 +69,7 @@ jobs:
           source-repo: git@github.com:shbone/shbone.github.io.git
           # 注意替换为你的 Gitee 目标仓库地址
           destination-repo: git@gitee.com:shbone/shbone.gitee.io.git
- 
+  
       - name: Build Gitee Pages
         uses: yanglbme/gitee-pages-action@main
         with:
